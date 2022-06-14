@@ -1,0 +1,29 @@
+{
+  "name": "LeaderBoard",
+  "version": "1.0.0",
+  "description": "This LeaderBoard project includes WebPack, JS Modules, Async functions, APIs etc.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahongiry/LeaderBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahongiry/LeaderBoard/issues"
+  },
+  "homepage": "https://github.com/jahongiry/LeaderBoard#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
