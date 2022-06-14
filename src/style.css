@@ -1,3 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 102%;
+  font-family: sans-serif;
+}
+
 h1 {
-  color: red;
+  font-size: 3rem;
+  padding: 5rem 3rem;
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recent-scores {
+  display: flex;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.refresh {
+  margin-left: 4rem;
+  font-size: 1rem;
+  border: 2px solid rgb(77, 77, 77);
+  padding: 0.5rem 1rem;
+  box-shadow: 5px 5px #888;
+  transition: all 0.4s;
+}
+
+.refresh:hover,
+.refresh:active {
+  background-color: #535353;
+  color: white;
+  box-shadow: 3px 3px #888;
+}
+
+.name-box {
+  border: 5px solid rgb(78, 78, 78);
+}
+
+.name-lists {
+  list-style: none;
+}
+
+.name-list:nth-child(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+.naming,
+.number {
+  padding: 1rem;
+}
+
+.right-box h2 {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.name-input,
+.score-input {
+  padding: 0.5rem;
+  border: 2px solid rgb(78, 78, 78);
+}
+
+.submit {
+  width: 75%;
+  align-self: flex-end;
+  font-size: 1rem;
+  border: 2px solid rgb(77, 77, 77);
+  padding: 0.5rem 1rem;
+  box-shadow: 5px 5px #888;
+  transition: all 0.4s;
+}
+
+.submit:hover,
+.submit:active {
+  background-color: #535353;
+  color: white;
+  box-shadow: 3px 3px #888;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(221, 221, 221);
+  padding: 1rem 5rem;
+  margin-top: 2rem;
 }
