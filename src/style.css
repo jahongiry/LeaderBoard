@@ -45,6 +45,10 @@ h1 {
   list-style: none;
 }
 
+.name-list {
+  padding: 1rem;
+}
+
 .name-list:nth-child(even) {
   background-color: rgb(221, 221, 221);
 }
