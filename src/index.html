@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <title>LeaderBoard</title>
 </head>
 <body>
-  <h1>Leaderboard</h1>
+  <div class="top">
+  <h1>Leaderboard <ion-icon name="trophy-outline"></ion-icon></h1>
   <main class="main-body">
     <div class="left-box">
       <div class="recent-scores">
-        <h2>Recent scores</h2>
-        <button class="refresh">Refresh</button>
+        <h2>Recent scores </h2>
+        <button class="refresh"><ion-icon class="icon-refresh" name="refresh-circle-outline"></ion-icon> Refresh</button>
       </div>
         <div class="name-box">
           <ul class="name-lists">
@@ -27,6 +30,7 @@
       </form>
     </div>
   </main>
+</div>
   <footer class="footer">Jahongir Yusupov project: LeaderBoard</footer>
 </body>
 </html>
