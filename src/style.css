@@ -5,9 +5,24 @@
   font-family: sans-serif;
 }
 
+.top {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.icon-refresh {
+  font-size: 1.2rem;
+}
+
 h1 {
   font-size: 3rem;
   padding: 5rem 3rem;
+  text-align: center;
 }
 
 .main-body {
@@ -23,7 +38,7 @@ h1 {
 
 .refresh {
   margin-left: 4rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: 2px solid rgb(77, 77, 77);
   padding: 0.5rem 1rem;
   box-shadow: 5px 5px #888;
@@ -39,6 +54,7 @@ h1 {
 
 .name-box {
   border: 5px solid rgb(78, 78, 78);
+  margin-bottom: 5rem;
 }
 
 .name-lists {
